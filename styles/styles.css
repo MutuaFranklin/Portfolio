@@ -244,11 +244,11 @@ justify-content: space-evenly;
 
 
 /*============================================================================================ */
-	/*  ABOUT PAGE
+	/*  WEB DEV SERVICES PAGE
 	============================================================================================ */
 
 
-.web-icon{
+.skill-icon{
     margin-top: 20px;
     height: 700px;
     display: flex;
@@ -256,14 +256,14 @@ justify-content: space-evenly;
     background-repeat: no-repeat;
 }
 
-.web-services{
+.skill-services{
     margin-top: 20px;
     height: 700px;
     display: flex;
     justify-content: center;
    
 }
-.web-box{
+.skill-box{
     height: 700px;
     width: 90%;
     line-height: 3;
@@ -274,14 +274,11 @@ justify-content: space-evenly;
 
 }
 
-.web-services h4{
+.skill-services h4{
     font-size: 15px;
     font-weight: 500;
     line-height: 2;
     margin-left: 10px;
-
-
-
  
 }
  .front-end, .back-end{
@@ -354,3 +351,21 @@ justify-content: space-evenly;
 }
 
 
+
+/*============================================================================================ */
+	/*  DATA SCIENCE SERVICES PAGE
+	============================================================================================ */
+
+.data-extra, .data-av{
+    margin-top: 30px;
+    margin-left: 50px;
+    
+}
+
+.ds-links{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+ }

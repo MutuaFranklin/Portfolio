@@ -10,10 +10,16 @@
     font-weight: 500;
     font-size: 13px;
 
-  }
+}
+
 .navbar-link{
     font-size: 13px;
 }
+
+nav a:hover{
+    color: #0e060c !important;
+}
+
 .navbar-nav{
     margin-left:30px;
     margin-right:30px;
@@ -97,24 +103,21 @@ img {
 }
 .btn a{
     text-decoration: none;
-	transition: all 0.5s;
-	transition: all 0.5s;
     font-weight: 500px;
 }
-/* #read{
-    color: white;
-    border: 1px solid  #0d6efd ;
-    border-radius: 5px;
-    height: 50px;
-} */
 
-#read a{
-    text-decoration: none;
+.btn a:hover{
+    color: #fff !important;
 }
-button:hover{
-    background-color: #0d6efd;
-    color: #fff;
 
+#blink{
+    color: #fff !important;
+
+}
+
+#blink:hover{
+    background-color: #146fee !important;
+    color: #fff;
 
 }
 
@@ -137,6 +140,7 @@ button:hover{
     color: #fff;
 
 }
+
 .container{
     display: flex;
     flex-direction: row;
@@ -179,7 +183,6 @@ button:hover{
 font-size: 14px; 
 display: flex;
 justify-content: space-evenly;
-color: black;
    
 }
 
@@ -250,7 +253,21 @@ color: black;
 /*============================================================================================ */
 	/*  WEB DEV SERVICES PAGE
 	============================================================================================ */
+.webd{
+    background-image: url("https://storybookstorage.s3.amazonaws.com/items/images/000/133/804/original/background-wallpapers.jpg?1442174294");
+    background-size: cover;
+    height: 820px;
+    color: #fff;
 
+}
+
+.webd > h1{
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: center;
+    
+    
+}
 
 .skill-icon{
     margin-top: 20px;
@@ -359,7 +376,20 @@ color: black;
 /*============================================================================================ */
 	/*  DATA SCIENCE SERVICES PAGE
 	============================================================================================ */
+.datascie{
+    background-image: url("https://image.shutterstock.com/image-vector/cyber-technology-security-network-protection-260nw-1736579819.jpg");
+    background-size: cover;
+    height: 820px;
+    color: #fff;
 
+}
+
+.datascie > h1{
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: center;
+        
+}
 .data-extra, .data-av{
     margin-top: 30px;
     margin-left: 50px;
@@ -378,6 +408,20 @@ color: black;
  /*============================================================================================ */
 	/*  CYBER SERVICES PAGE
 	============================================================================================ */
+.cybers{
+    background-image: url("https://media.istockphoto.com/vectors/data-protection-privacy-concept-padlock-icon-and-internet-technology-vector-id1173319475?k=6&m=1173319475&s=612x612&w=0&h=31ngWk8kM5QJ5XFke3-oNYErGxJt-b6uVDlFX834h0o=");
+    background-size: cover;
+    height: 820px;
+    color: #fff;
+
+}
+
+.cybers > h1{
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: center;
+      
+}
 
 .cyber-abilities, .cyber-tools{
     margin-top: 17px;
@@ -554,10 +598,14 @@ label{
     margin-top: 20px;
 }
 
-.col-6{
+.col-4{
     margin-top: 20px;
     font-size: 14px !important;
     font-weight: bold;
+}
+
+.col-4:hover{
+    background-color: #5365d8 !important;
 }
     
 

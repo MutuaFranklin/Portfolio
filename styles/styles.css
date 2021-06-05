@@ -100,10 +100,15 @@ img {
 
 .btn{
      margin-right: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 .btn a{
     text-decoration: none;
     font-weight: 500px;
+    font-size: 14px;
+
 }
 
 .btn a:hover{
@@ -112,6 +117,7 @@ img {
 
 #blink{
     color: #fff !important;
+    height: 40px;
 
 }
 
@@ -134,10 +140,10 @@ img {
 	============================================================================================ */
 
 .profile{
-    background-image: url("https://storybookstorage.s3.amazonaws.com/items/images/000/133/804/original/background-wallpapers.jpg?1442174294");
+    background-image: url("https://image.freepik.com/free-vector/light-blue-gradient-simple-background-presentation-banner-studio-wallpaper_138278-72.jpg");
     background-size: cover;
     height: 820px;
-    color: #fff;
+    color: black;
 
 }
 
@@ -150,10 +156,10 @@ img {
 .profile > h1{
     padding-top: 20px;
     font-size: 1em;
-    text-align: center;
-    
+    text-align: center; 
     
 }
+
 
 .about{
     height: 700px;
@@ -163,7 +169,7 @@ img {
 
 .about-box{
     margin-top: 40px;
-    height: 600px;
+    height: 620px;
     width: 70%;
     line-height: 2;
     display: flex;
@@ -179,11 +185,25 @@ img {
        
 }
 
+.about-box > h5{
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+
+.about-box > h6{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2;
+    margin-left: 20px;
+    
+    
+}
 .about-box >p{
-font-size: 14px; 
-display: flex;
-justify-content: space-evenly;
-   
+    font-size: 14px; 
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 
@@ -198,13 +218,13 @@ justify-content: space-evenly;
 
 .tools_expert {
     margin-top: 40px;
-    height: 600px;
+    height: 620px;
     width: 70%;
     box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
 }
 
 .tools_expert h2 {
-    color: #fff;
+    color: black;
     font-size: 1em;
     text-transform: uppercase;
 }
@@ -616,7 +636,7 @@ label{
 
 #contactMe{
     height: 800px;
-    background-image: url("https://34a0vrrs61o2fpmoztvq511d-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Cyber-Security-Background-Blue.jpg");
+    background-image: url("https://www.ppt-backgrounds.net/thumbs/light-blue-template-powerpoint.jpeg");
     background-size: cover;
 }
     
@@ -625,7 +645,7 @@ label{
     text-align: center;
     font-size: 16px;
     padding-top: 50px;
-    color: #fff;
+    color: black;
 
 }
 
@@ -645,7 +665,7 @@ label{
     font-size: 14px;
     display: flex;
     flex-direction: column; 
-    color: #fff;
+    color: black;
 
 }
 .contact-details p {
@@ -660,5 +680,5 @@ label{
 #contactform {
     margin-top: 100px;
     width: 70%;
-    color: #fff;
+    color: black;
 }

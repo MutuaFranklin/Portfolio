@@ -131,8 +131,10 @@ button:hover{
 	============================================================================================ */
 
 .profile{
-    background-image: url(../images/home-banner.jpg);
+    background-image: url("https://storybookstorage.s3.amazonaws.com/items/images/000/133/804/original/background-wallpapers.jpg?1442174294");
     background-size: cover;
+    height: 820px;
+    color: #fff;
 
 }
 .container{
@@ -142,6 +144,7 @@ button:hover{
 } 
 
 .profile > h1{
+    padding-top: 20px;
     font-size: 1em;
     text-align: center;
     
@@ -149,7 +152,7 @@ button:hover{
 }
 
 .about{
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: center;
 }
@@ -167,14 +170,16 @@ button:hover{
 }
 
 .about-box >h2{
-    font-size: 1em;
-    font-weight: bold;    
+    font-size: 20px;
+    font-weight: bold; 
+       
 }
 
 .about-box >p{
 font-size: 14px; 
 display: flex;
 justify-content: space-evenly;
+color: black;
    
 }
 
@@ -196,7 +201,7 @@ justify-content: space-evenly;
 }
 
 .tools_expert h2 {
-    color: #222222;
+    color: #fff;
     font-size: 1em;
     text-transform: uppercase;
 }
@@ -215,7 +220,6 @@ justify-content: space-evenly;
     text-transform: uppercase;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
-    color: #777777;
     margin-bottom: 15px; 
 }
 
@@ -369,3 +373,244 @@ justify-content: space-evenly;
     display: flex;
     justify-content: space-between;
  }
+
+
+ /*============================================================================================ */
+	/*  CYBER SERVICES PAGE
+	============================================================================================ */
+
+.cyber-abilities, .cyber-tools{
+    margin-top: 17px;
+    margin-left: 50px;
+    
+}
+
+.cyber-links{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+ /*============================================================================================ */
+	/*  WEB PORTFOLIO PAGE
+	============================================================================================ */
+
+#wdp{
+    height: 800px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-network-connections-background_1048-9917.jpg?size=626&ext=jpg");
+    background-size: cover;
+
+    
+
+}
+
+#wdp h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #fff;
+}
+.cards{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio{
+    height: 450px;
+    width: 30%;
+    margin: 50px 50px;
+    border: 1px solid grey !important;
+    box-shadow: 0px 8px 30px 0px rgba(41, 4, 204, 0.1);
+
+}
+
+.card-text{
+    color: #000;
+}
+
+.card-footer a{
+    text-decoration: none;
+}
+
+.hire-link{
+    display: flex;
+    justify-content: center;
+}
+/*============================================================================================ */
+	/*  DATA SCIENCE PORTFOLIO PAGE
+	============================================================================================ */
+
+#dsp{
+    height: 800px;
+    background-image: url("https://image.shutterstock.com/image-vector/cyber-technology-security-network-protection-260nw-1711339984.jpg");
+    background-size: cover;
+    box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);
+
+
+    
+}
+
+#dsp h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #fff;
+    
+}
+
+
+/*============================================================================================ */
+	/* CYBERSECURITY PORTFOLIO PAGE
+	============================================================================================ */
+
+#csp{
+    height: 800px;
+    background-image: url("https://image.freepik.com/free-vector/abstract-technology-world-cyber-security-privacy-background-information-network_36402-391.jpg");
+    background-size: cover;
+    box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);
+
+
+    
+}
+
+#csp h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #fff;
+
+}
+
+
+
+ /*============================================================================================ */
+	/*  HIRE ME PAGE
+	============================================================================================ */
+
+#hireMe{
+    height: 800px;
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Gradient-Background-Image.jpg");
+    background-size: cover;
+}
+
+
+#hireMe h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+
+}
+
+.hireForm{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pdetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+}
+
+#pdetails input{
+    font-size: 13px;
+}
+
+.col-2{
+    margin-right: 50px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+
+#projdetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+}
+
+#projdetails h2{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.form-select{ 
+    font-size: 13px !important;
+    color: blue !important;
+}
+
+.col-3{
+    margin-top: 20px;
+}
+
+.col-6{
+    margin-top: 20px;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+    
+
+
+/*============================================================================================ */
+	/*  CONTACT ME PAGE
+	============================================================================================ */
+
+#contactMe{
+    height: 800px;
+    background-image: url("https://34a0vrrs61o2fpmoztvq511d-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/Cyber-Security-Background-Blue.jpg");
+    background-size: cover;
+}
+    
+
+#contactMe h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #fff;
+
+}
+
+.contact-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.col-5{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-details{
+    margin-top: 100px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column; 
+    color: #fff;
+
+}
+.contact-details p {
+    margin-top: 20px;
+}
+
+.contact-details h5 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#contactform {
+    margin-top: 100px;
+    width: 70%;
+    color: #fff;
+}

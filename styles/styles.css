@@ -8,13 +8,11 @@
     padding-right:30px;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 12px;
 
 }
 
-.navbar-link{
-    font-size: 13px;
-}
+
 
 nav a:hover{
     color: #0e060c !important;
@@ -675,19 +673,27 @@ label{
 }
 .contact-details p {
     margin-top: 20px;
+    color: rgb(105, 105, 202);
+
 }
 
 .contact-details h5 {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 #contactform {
     margin-top: 100px;
     width: 70%;
     color: black;
+    font-size: 13px;
+    font-weight: bold;
 }
 
+#contactform input{
+    font-size: 13px;
+}
 #contactform > button {
    height: 40px;
    width: 150px;

@@ -277,7 +277,7 @@ img {
 .webd{
     background-image: url("https://storybookstorage.s3.amazonaws.com/items/images/000/133/804/original/background-wallpapers.jpg?1442174294");
     background-size: cover;
-    height: 820px;
+    height: 830px;
     color: #fff;
 
 }
@@ -399,7 +399,7 @@ img {
 .datascie{
     background-image: url("https://image.shutterstock.com/image-vector/cyber-technology-security-network-protection-260nw-1736579819.jpg");
     background-size: cover;
-    height: 820px;
+    height: 830px;
     color: #fff;
 
 }
@@ -431,7 +431,7 @@ img {
 .cybers{
     background-image: url("https://media.istockphoto.com/vectors/data-protection-privacy-concept-padlock-icon-and-internet-technology-vector-id1173319475?k=6&m=1173319475&s=612x612&w=0&h=31ngWk8kM5QJ5XFke3-oNYErGxJt-b6uVDlFX834h0o=");
     background-size: cover;
-    height: 820px;
+    height: 830px;
     color: #fff;
 
 }
@@ -463,7 +463,7 @@ img {
 	============================================================================================ */
 
 #wdp{
-    height: 800px;
+    height: 830px;
     background-image: url("https://img.freepik.com/free-vector/abstract-network-connections-background_1048-9917.jpg?size=626&ext=jpg");
     background-size: cover;
 
@@ -511,7 +511,7 @@ img {
 	============================================================================================ */
 
 #dsp{
-    height: 800px;
+    height: 830px;
     background-image: url("https://image.shutterstock.com/image-vector/cyber-technology-security-network-protection-260nw-1711339984.jpg");
     background-size: cover;
     box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);
@@ -534,7 +534,7 @@ img {
 	============================================================================================ */
 
 #csp{
-    height: 800px;
+    height: 830px;
     background-image: url("https://image.freepik.com/free-vector/abstract-technology-world-cyber-security-privacy-background-information-network_36402-391.jpg");
     background-size: cover;
     box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);

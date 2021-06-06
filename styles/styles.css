@@ -653,10 +653,16 @@ label{
     flex-direction: row;
     justify-content: center;
 }
-.col-5{
+
+.col-5 {
     height: 700px;
     display: flex;
     justify-content: center;
+}
+
+.col-5 h2{
+    font-size: 18px;
+    color: blue;
 }
 
 .contact-details{
@@ -680,4 +686,10 @@ label{
     margin-top: 100px;
     width: 70%;
     color: black;
+}
+
+#contactform > button {
+   height: 40px;
+   width: 150px;
+   font-size: 14px;
 }

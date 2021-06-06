@@ -25,10 +25,7 @@
 }
 
 @media (max-width:991px){
-	.navbar{
-		position:unset !important;
-		width: 90%;
-	}
+
 
 	.navbar-nav > li{
 		text-transform: uppercase;

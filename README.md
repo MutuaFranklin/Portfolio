@@ -1,8 +1,8 @@
-# DAIRY BUSINESS
+# PORTFOLIO LANDING PAGEPortfolio
 
 ### Description
 
-A web application dashboard page with data capture and data automation functionalities to ease and increase efficiency in the dairy milk production reports and income reports.
+A personal web portfolio showing my profile, interests and skills.
 
 ### Author
 
@@ -10,11 +10,7 @@ A web application dashboard page with data capture and data automation functiona
 
 ### Date of current version
 
-02/05/2021
-
-## Project Image view
-
-![eDAIRY Image View](<img src=“Images/eDAIRY.png” raw=true style=“margin-right: 10px;”>)
+06/06/2021
 
 ## Project setup instructions
 
@@ -33,7 +29,7 @@ Github account
 
 When you create a repository on GitHub, it exists as a remote repository. You can clone your repository to create a local copy on your computer and sync between the two locations. Here is a series of steps on how to set up the project on your local machine.
 
-Click [Dairy Business](https://github.com/MutuaFranklin/Dairy-Business) to navigate on the main page of the project repository on Github.
+Click [Portfolio ](https://github.com/MutuaFranklin/Portfolio-Landing-Page) to navigate on the main page of the project repository on Github.
 
 ```
 Clone the repository using HTTPS, click "Clone with HTTPS".
@@ -44,22 +40,21 @@ Open Terminal. Change the current working directory to the location where you wa
 ```
 
 ```
-Type https://github.com/MutuaFranklin/Dairy-Business and press Enter to create your local clone.
+Type https://github.com/MutuaFranklin/Portfolio-Landing-Page and press Enter to create your local clone.
 ```
 
 ## Technologies Used
 
 - HTML
 - CSS
-- JS
 
 ## Live link
 
-[Dairy Business Dashboard Page live link](https://mutuafranklin.github.io/Dairy-Business/)
+[Portfolio live link](https://mutuafranklin.github.io/Dairy-Business/)
 
 ## Support and contact details
 
-Email: [franklin.mutua@student.moringaschool.com ](franklin.mutua@student.moringaschool.com)
+Email: [franklin.mutua@student.moringaschool.co ](franklin.mutua@student.moringaschool.com)
 
 ## License
 

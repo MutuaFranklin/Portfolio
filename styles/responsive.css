@@ -159,7 +159,7 @@
          margin-right: 5px;
     }
 
-    .footer{
+    .footer,#indexfooter{
         margin-top: 5px;
         display: flex;
 		font-size: 12px;
@@ -205,6 +205,8 @@
 .about-box >h2{
     font-size: 14px;
     font-weight: bold; 
+	margin-left: 20px;
+
        
 }
 
@@ -212,11 +214,13 @@
     font-size: 13px;
     text-transform: uppercase;
 	font-weight: bold;
+	margin-left: 20px;
+
     
 }
 
 .about-box > h6{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: normal;
     line-height: 2;
     margin-left: 20px;
@@ -226,7 +230,7 @@
 .about-box >p{
     font-size: 15px;
     font-weight: 500;
-	margin-left: 10px;
+	margin-left: 20px;
  
     
 }
@@ -248,9 +252,18 @@
     color: black;
     font-size: 14px;
     text-transform: uppercase;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
+.tools_expert .skill_main .skill_item h4 {
+    text-align: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 15px; 
+}
 
 .footer{
     display: flex;
@@ -263,265 +276,283 @@
 	/* WEB DEV SERVICE PAGE
 	============================================================================================ */
 
-
-
-
-
-
-
-
-	.categories_post img{
-        width: 100%;
-    }
-	.categories_post {
-		max-width: 360px;
-		margin: 0 auto;
-	}
-	.blog_categorie_area .col-lg-4{
-        margin-top: 30px;
-    }
-    .blog_area{
-        padding-bottom: 80px;
-    }
-    .single-post-area .blog_right_sidebar{
-        margin-top: 30px;
-    }
-	/* End Blog page Area css
-	============================================================================================ */
-	
-	/* Contact Page Area css
-	============================================================================================ */
-	.contact_info{
-		margin-bottom: 50px;
-	}
-	/* End Contact page Area css
-	============================================================================================ */
-	.home_banner_area .donation_inner{
-		margin-bottom: -30px;
-	}
-	.home_banner_area .dontation_item{
-		max-width: 350px;
-		margin: auto;
-	}
-	/* Footer Area css
-	============================================================================================ */
-	.footer_area .col-sm-6{
-		margin-bottom: 30px;
-	}
-	.footer_area .footer_inner{
-		margin-bottom: -30px;
-	}
-	.news_widget {
-		padding-left: 0px;
-	}
-	/* End End Footer Area css
-	============================================================================================ */
-	
-	.home_banner_area .banner_inner .home_left_img {
-		padding-top: 0px;
-	}
-	.home_banner_area .banner_inner .banner_content {
-		padding-top: 50px;
-	}
-	.tools_expert {
-		margin-top: 50px;
-	}
-	.latest_blog_inner{
-		margin-bottom: -30px;
-	}
-	.l_blog_item{
-		max-width: 360px;
-		margin: 0px auto 30px;
-	}
-	.portfolio_details_inner .portfolio_right_text {
-		padding-left: 0px;
-	}
+.webd {
+	display: flex;
+	flex-direction: column;
+	height: 1000px;
+	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96269ce8-4a07-4702-936a-6860e1b5594f/dd4uw59-840f71b7-5fa0-4d03-9fa5-25844c58b5e3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk2MjY5Y2U4LTRhMDctNDcwMi05MzZhLTY4NjBlMWI1NTk0ZlwvZGQ0dXc1OS04NDBmNzFiNy01ZmEwLTRkMDMtOWZhNS0yNTg0NGM1OGI1ZTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.W5arZuQJT6sBXLvU9P0mhaweVKA_1v7EJwPL00hMndI");
 }
-@media (max-width:767px){
-	.home_banner_area {
-		min-height: 500px;
-	}
-	.home_banner_area .banner_inner {
-		min-height: 500px;
-	}
-	.home_banner_area .banner_inner .banner_content {
-		margin-top: 0px;
-	}
-	/* Blog Page Area css
-	============================================================================================ */
-    .blog_banner .banner_inner .blog_b_text h2 {
-		font-size: 40px;
-		line-height: 50px;
-	}
-	.blog_info.text-right{
-		text-align: left !important;
-		margin-bottom: 10px;
-	}
-	/* End Blog Page Area css
-	============================================================================================ */
-	.home_banner_area .banner_inner .banner_content h3 {
-		font-size: 30px;
-	}
-	.home_banner_area .banner_inner .banner_content p br {
-		display: none;
-	}
-	.home_banner_area .banner_inner .banner_content h3 span {
-		line-height: 45px;
-		padding-bottom: 0px;
-		padding-top: 0px;
-	}
-	/* Footer Area css
-	============================================================================================ */
-	.footer-bottom{
-		text-align: center;
-	}
-	.footer-bottom .footer-social {
-		text-align: center;
-		margin-top: 15px;
-	}
-	/* End End Footer Area css
-	============================================================================================ */
-	
-	.welcome_text .row{
-		margin-bottom: -30px;
-	}
-	.wel_item {
-		margin-bottom: 30px;
-	}
-	.welcome_text {
-		margin-top: 0px;
-	}
-	.portfolio_details_inner .portfolio_right_text {
-		margin-top: 50px;
-	}
-}
-@media (max-width:600px){
+.webd > h1{
+	padding-top: 20px;
+	font-size: 14px;
+	text-align: center; 
 	
 }
-@media (max-width:575px){
-	.top_menu {
-		display: none;
-	}
-	.header_area + section, .header_area + row, .header_area + div {
-		margin-top: 71px;
-	}
-    /* Home Banner Area css
-	============================================================================================ */
-	.home_banner_area .banner_inner .banner_content h2 {
-		font-size: 28px;
-		line-height: 38px;
-	}
-	.home_banner_area {
-		min-height: 450px;
-	}
-	.home_banner_area .banner_inner {
-		min-height: 450px;
-	}
-	.blog_banner .banner_inner .blog_b_text {
-		margin-top: 0px;
-	}
-	.home_banner_area .banner_inner .banner_content img{
-		display: none;
-	}
-	.home_banner_area .banner_inner .banner_content h5 {
-		margin-top: 0px;
-	}
-	/* End Home Banner Area css
-	============================================================================================ */
-	.p_120 {
-		padding-top: 70px;
-		padding-bottom: 70px;
-	}
-	.main_title h2 {
-		font-size: 25px;
-	}
-	/* Elements Area css
-	============================================================================================ */
-	.sample-text-area {
-		padding: 70px 0 70px 0;
-	}
-	.generic-blockquote {
-		padding: 30px 15px 30px 30px;
-	}
-	/* End Elements Area css
-	============================================================================================ */
-	
-	/* Blog Page Area css
-	============================================================================================ */
-	.blog_details h2 {
-		font-size: 20px;
-		line-height: 30px;
-	}
-	.blog_banner .banner_inner .blog_b_text h2 {
-		font-size: 28px;
-		line-height: 38px;
-	}
-	/* End Blog Page Area css
-	============================================================================================ */
-	/* Footer Area css
-	============================================================================================ */
-	.footer-area {
-		padding: 70px 0px;
-	}
-	/* End End Footer Area css
-	============================================================================================ */
-	.pad_top {
-		padding-top: 70px;
-	}
-	.pad_btm {
-		padding-bottom: 70px;
-	}
-	.home_banner_area .banner_inner .home_left_img {
-		display: none;
-	}
-	.home_banner_area .banner_inner .banner_content {
-		padding-top: 0px;
-	}
-	.tools_expert h3 {
-		margin-bottom: 25px;
-	}
-	.projects_inner {
-		max-width: 360px;
-		margin: 0px auto -30px;
-	}
-	.projects_fillter .filter li {
-		margin-right: 20px;
-	}
+
+.skill-icon{
+    margin-top: 20px;
+    height: 300px;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-@media (max-width:480px){
-	/* Main Menu Area css
-	============================================================================================ */
-	.header_area .navbar-collapse{
-		max-height: 250px;
-	}
-	/* End Main Menu Area css
-	============================================================================================ */
+.skill-icon img{
+	height: 300px !important;
+}
+
+.skill-services{
+    margin-top: 20px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.skill-box{
+    height: 500px;
+    width: 90%;
+    line-height: 3;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
+    font-size: 14px;
+
+}
+
+.skill-services h4{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    margin-left: 10px;
+ 
+}
+
+
+.skill-services h5{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+ 
+}
+
+.front-end, .back-end{
+	margin-top: 20px;
+	margin-left: 50px;
 	
-	/* Home Banner Area css
+}
+.webdev-links{
+    margin-top: 10px;
+    
+ }
+
+ .hire-btn {
+	margin-top:30px ;
+	display: inline-block;
+    justify-content: space-evenly;
+	font-size: 12px;
+	line-height: 38px;
+	padding: 0 0 0 5px;
+
+
+ }
+
+ #webfooter{
+    display: flex;
+	margin-top: 400px;
+}
+
+	/* 
 	============================================================================================ */
-    .home_banner_area .banner_inner .banner_content {
-		padding: 30px 15px;
-		margin-top: 0px;
-	}
-	.banner_content .white_btn {
-		display: block;
-	}
-	.home_banner_area .banner_inner .banner_content h3 {
-		font-size: 24px;
-	}
-	/* End Home Banner Area css
+	/* DATA SCIENCE SERVICE PAGE
 	============================================================================================ */
-	.banner_area .banner_inner .banner_content h2 {
-		font-size: 32px;
-	}
-	/* Blog Page Area css
+
+.datascie{
+	background-image: url("https://lh3.googleusercontent.com/proxy/Rq1EE2J49ceXztsXYBusHOZxEBegBKuQ7Yt2kyiYt2rbz7_zyvNlY058_D0OBuHMJ9R3iFLvUL3KFx3bJA4-HPjQwTdxrvESJJUBVxlggMxpmWQ4cZCPS9feTGK069cCchCdf0vGCA");
+	background-size: cover;
+	height: 1300px;
+	color: #fff;
+
+}
+
+.datascie > h1{
+	padding-top: 20px;
+	font-size: 14PX;
+	text-align: center;
+		
+}
+
+.data-extra, .data-av{
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+
+
+.ds-links{
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #dsfooter{
+    display: flex;
+	margin-top: 570px;
+}
+
+
+	/* 
 	============================================================================================ */
-	.comments-area .thumb {
-		margin-right: 10px;
-	}
+	/* DATA SCIENCE SERVICE PAGE
+	============================================================================================ */
+
+.cybers{
+	background-image: url("https://media.istockphoto.com/vectors/data-protection-privacy-concept-padlock-icon-and-internet-technology-vector-id1173319475?k=6&m=1173319475&s=612x612&w=0&h=31ngWk8kM5QJ5XFke3-oNYErGxJt-b6uVDlFX834h0o=");
+	background-size: cover;
+	height: 1300px;
+	color: #fff;
+
+}
+
+.cybers > h1{
+	padding-top: 20px;
+	font-size: 1em;
+	text-align: center;
+		
+}
+
+.cyber-abilities, .cyber-tools{
+	margin-top: 17px;
+	margin-left: 10px;
 	
-	/* End Blog Page Area css
+}
+
+
+	/* 
 	============================================================================================ */
+	/* WEB DEV PORTFOLIO PAGE
+	============================================================================================ */
+
+#wdp{
+	height: 1400px;
+	background-image: url("https://image.freepik.com/free-vector/light-blue-gradient-simple-background-presentation-banner-studio-wallpaper_138278-72.jpg");
+	background-size: cover;
+
+}
+
+#wdp h1{
+	text-align: center;
+	font-size: 16px;
+	padding-top: 50px;
+	color:blue;
+}
+.cards{
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 200px;
+}
 	
+#portfolio{
+    height: 450px;
+    width: 90%;
+    border: 1px solid grey !important;
+    box-shadow: 0px 8px 30px 0px rgba(41, 4, 204, 0.1);
+
+}
+
+/*
+============================================================================================ */
+/* DATA SCIENCE PORTFOLIO PAGE
+============================================================================================ */
+#dsp{
+    height: 1200px;
+    background-image: url("https://image.shutterstock.com/image-vector/cyber-technology-security-network-protection-260nw-1711339984.jpg");
+    background-size: cover;
+    box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);
+  
+}
+
+#dsp h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #fff;
+    
+}
+
+/*
+============================================================================================ */
+/* CYBERSECURITY PORTFOLIO PAGE
+============================================================================================ */
+#csp{
+    height: 1500px;
+    background-image: url("https://image.freepik.com/free-vector/abstract-technology-world-cyber-security-privacy-background-information-network_36402-391.jpg");
+    background-size: cover;
+    box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);
+
+
+    
+}
+
+#csp h1{
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    color: #fff;
+
+}
+
+
+ /*============================================================================================ */
+	/*  HIRE ME PAGE
+	============================================================================================ */
+
+#hireMe{
+	height: 1200px;
+	background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Gradient-Background-Image.jpg");
+	background-size: cover;
+}
+
+
+#hireMe h1{
+	text-align: center;
+	font-size: 16px;
+	padding-top: 50px;
+
+}
+
+.hireForm{
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+#pdetails{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+#pdetails input{
+    font-size: 13px;
+	margin-left:40px;
+	margin-bottom: 10px;
+}
+
+.col-2 input{
+	width: 300px !important;
+}
+
+label{
+    margin-bottom: 10px;
+	width:350px ;
+	text-align: center;
+}
+
+
+
+
 }

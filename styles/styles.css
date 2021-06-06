@@ -284,8 +284,7 @@ img {
 .webd > h1{
     padding-top: 20px;
     font-size: 1em;
-    text-align: center;
-    
+    text-align: center; 
     
 }
 
@@ -305,7 +304,7 @@ img {
    
 }
 .skill-box{
-    height: 700px;
+    height: 720px;
     width: 90%;
     line-height: 3;
     display: flex;
@@ -445,7 +444,7 @@ img {
 
 .cyber-abilities, .cyber-tools{
     margin-top: 17px;
-    margin-left: 50px;
+    margin-left: 30px;
     
 }
 

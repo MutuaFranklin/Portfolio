@@ -3,7 +3,6 @@
 	============================================================================================ */
 .landingnav{
     position: fixed !important;
-    width: 100%;
 }
 
 .navbar-nav > li{
@@ -558,7 +557,7 @@ img {
 	============================================================================================ */
 
 #hireMe{
-    height: 800px;
+    height: 830px;
     background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-White-Gradient-Background-Image.jpg");
     background-size: cover;
 }
@@ -635,7 +634,7 @@ label{
 	============================================================================================ */
 
 #contactMe{
-    height: 800px;
+    height: 830px;
     background-image: url("https://www.ppt-backgrounds.net/thumbs/light-blue-template-powerpoint.jpeg");
     background-size: cover;
 }

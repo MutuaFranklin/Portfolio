@@ -356,7 +356,7 @@
 
 .front-end, .back-end{
 	margin-top: 20px;
-	margin-left: 50px;
+	margin-left: 25px;
 	
 }
 .webdev-links{
@@ -612,6 +612,11 @@ label{
 #projdetails h2{
     font-size: 14px;
     margin-top: 20px;
+}
+
+.form-select{ 
+    font-size: 12px !important;
+    color: blue !important;
 }
 
 .col-3, #col{

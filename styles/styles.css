@@ -181,8 +181,7 @@ img {
 }
 
 .about-box >h2{
-    font-size: 20px;
-    font-weight: bold; 
+    font-size: 15px;
        
 }
 
@@ -226,8 +225,7 @@ img {
 
 .tools_expert h2 {
     color: black;
-    font-size: 1em;
-    text-transform: uppercase;
+    font-size: 15px;
 }
 
 .tools_expert .skill_main .skill_item {
@@ -240,11 +238,11 @@ img {
 
 .tools_expert .skill_main .skill_item h4 {
     text-align: left;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
-    font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    margin-top: 15px; 
     margin-bottom: 15px; 
+    color: grey;
 }
 
 .tools_expert .skill_main .skill_item .progress {

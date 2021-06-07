@@ -177,8 +177,16 @@
          margin-right: 5px;
     }
 
-    .footer,#indexfooter{
-        margin-top: 5px;
+	#fluidcontainer{
+		margin-top: 930px !important;
+	}
+
+	#fluidcontact{
+		margin-top: 400px !important;
+	}
+
+    #indexfooter{
+        margin-top: 200px;
         display: flex;
 		font-size: 12px;
         justify-content: center;

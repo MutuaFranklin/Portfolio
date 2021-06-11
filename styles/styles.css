@@ -132,6 +132,8 @@ img {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
 
 }
 

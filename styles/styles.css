@@ -90,7 +90,8 @@ img {
 .info> p{
     margin-top: 50px;
     line-height: 2;
-    color: grey;
+    color: rgb(7, 3, 22);
+    font-size: 18px;
 
 }
 
@@ -117,14 +118,15 @@ img {
 }
 
 #blink{
-    color: #fff !important;
-    height: 40px;
+    height: 35px;
+    font-size: 13px !important;
 
 }
 
 #blink:hover{
-    background-color: #146fee !important;
+    background-color: #712bf3 !important;
     color: #fff;
+    border: none;
 
 }
 

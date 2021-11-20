@@ -1,7 +1,11 @@
 /*============================================================================================ */
 	/*  INDEX PAGE
 	============================================================================================ */
-#landingnav{
+body{
+    height: 100%;
+}
+
+    #landingnav{
     position: fixed !important;
     width: 100%;
 }
@@ -44,7 +48,7 @@ nav a:hover{
 
 .container-fluid{ 
     background-color: #fff;
-    height: 820px;
+    /* height: 820px; */
 }
 
 .row{
@@ -472,6 +476,15 @@ img {
     
 
 }
+
+.card{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+  }
+  
+  .card:hover{
+    filter:drop-shadow(8px 8px 10px rgb(113, 141, 233));
+  }
 
 #wdp h1{
     text-align: center;

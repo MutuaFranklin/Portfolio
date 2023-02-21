@@ -163,7 +163,6 @@
     }
     
 	#blink{
-		color: white;
 		border-radius: 5px;
 		height: 40px;
 	}
@@ -212,12 +211,12 @@
 }
 
 .about{
-    height: 800px;
+    height: 720px;
    
 }
 
 .about-box{
-    height: 800px;
+    height: 700px;
     width: 100%;
     line-height: 2;
     display: flex;
@@ -261,14 +260,14 @@
 }
 
 .skills{
-    height: 630px;
-	margin: 50px;
+    height: 700px;
+	margin: 20px;
     
 }
 
 .tools_expert {
-    margin-top: 20px;
-    height: 600px;
+   
+    height: 730px;
     width: 100%;
     box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
 }
@@ -573,6 +572,7 @@
 
     
 }
+
 
 #csp h1{
     text-align: center;

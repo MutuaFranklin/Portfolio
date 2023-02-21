@@ -51,7 +51,7 @@ nav a:hover{
     /* height: 820px; */
 }
 
-.row{
+.index-row{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,7 +281,7 @@ img {
 	/*  WEB DEV SERVICES PAGE
 	============================================================================================ */
 .webd{
-    background-image: url("https://storybookstorage.s3.amazonaws.com/items/images/000/133/804/original/background-wallpapers.jpg?1442174294");
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTObY3fmfqrLNkd_EH_J-M0XCiBqN5Z9L99dw&usqp=CAU");
     background-size: cover;
     height: 830px;
     color: #fff;
@@ -400,10 +400,10 @@ img {
 
 
 /*============================================================================================ */
-	/*  DATA SCIENCE SERVICES PAGE
+	/*  POWER PLATFFORM SERVICES PAGE
 	============================================================================================ */
 .datascie{
-    background-image: url("https://image.shutterstock.com/image-vector/cyber-technology-security-network-protection-260nw-1736579819.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm016Gyi2SsDN8fU5ETwzmUgVCpHhiSmucfg&usqp=CAU");
     background-size: cover;
     height: 830px;
     color: #fff;
@@ -432,10 +432,10 @@ img {
 
 
  /*============================================================================================ */
-	/*  CYBER SERVICES PAGE
+	/*  DEVSECOPS PAGE
 	============================================================================================ */
 .cybers{
-    background-image: url("https://media.istockphoto.com/vectors/data-protection-privacy-concept-padlock-icon-and-internet-technology-vector-id1173319475?k=6&m=1173319475&s=612x612&w=0&h=31ngWk8kM5QJ5XFke3-oNYErGxJt-b6uVDlFX834h0o=");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm016Gyi2SsDN8fU5ETwzmUgVCpHhiSmucfg&usqp=CAU");
     background-size: cover;
     height: 830px;
     color: #fff;
@@ -470,7 +470,8 @@ img {
 
 #wdp{
     height: 830px;
-    background-image: url("https://img.freepik.com/free-vector/abstract-network-connections-background_1048-9917.jpg?size=626&ext=jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm016Gyi2SsDN8fU5ETwzmUgVCpHhiSmucfg&usqp=CAU");
+    
     background-size: cover;
 
     
@@ -509,8 +510,21 @@ img {
 
 }
 
+.card-title{
+    font-size: 16px;
+    text-align: center;
+}
+
 .card-text{
     color: #000;
+    font-size: 14px;
+
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .card-footer a{
@@ -522,7 +536,7 @@ img {
     justify-content: center;
 }
 /*============================================================================================ */
-	/*  DATA SCIENCE PORTFOLIO PAGE
+	/*  POWER PLATFORM PORTFOLIO PAGE
 	============================================================================================ */
 
 #dsp{
@@ -545,12 +559,12 @@ img {
 
 
 /*============================================================================================ */
-	/* CYBERSECURITY PORTFOLIO PAGE
+	/* DEVSECOPS PORTFOLIO PAGE
 	============================================================================================ */
 
 #csp{
     height: 830px;
-    background-image: url("https://image.freepik.com/free-vector/abstract-technology-world-cyber-security-privacy-background-information-network_36402-391.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm016Gyi2SsDN8fU5ETwzmUgVCpHhiSmucfg&usqp=CAU");
     background-size: cover;
     box-shadow: 0px 8px 30px 0px rgba(74, 51, 173, 0.1);
 
